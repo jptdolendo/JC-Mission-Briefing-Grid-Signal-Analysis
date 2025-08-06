@@ -22,7 +22,7 @@ public class GridSignalAnalyzer {
     // Analyze rows and columns using for-each loop
     public void analyzeWithForEachLoop() {
         for (char[] rowArray : scrambledGrid) {
-            System.out.println("Processing Row with Hash: " + System.identityHashCode(rowArray));
+            System.out.println("Processing Row with Hash: " + rowArray);
             for (char c : rowArray) {
                 System.out.println("-> " + c);
             }
